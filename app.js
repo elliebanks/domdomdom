@@ -38,11 +38,20 @@ document.addEventListener("DOMContentLoaded", function () {
 
         square.addEventListener("click", function () {
             let colors = [
-                "yellow",
-                "pink",
-                "blue",
-                "orange",
-                "red",
+                "#EBA3CE",
+                "#EBA3AA",
+                "#EBC0A3",
+                "#EBE4A3",
+                "#CEEBA3",
+                "#AAEBA3",
+                "#948EEC",
+                "#EC948E",
+                "#C38EEC",
+                "#EC8EB7",
+                "#8EDCEC",
+                "#4BAAB5",
+                "#E6EAA0",
+                "#A0EAC9",
             ];
             let randomColor = Math.floor(Math.random() * colors.length);
             square.style.backgroundColor = colors[randomColor];
