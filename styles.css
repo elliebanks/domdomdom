@@ -1,0 +1,21 @@
+.square {
+    display: inherit;
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    float: left;
+    flex: wrap;
+    margin: 4px;
+    justify-content: center;
+    align-items: center;
+    color:blanchedalmond;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
